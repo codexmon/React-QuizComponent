@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import QuizQuestion from './QuizQuestion.js';
 
 let quizData = require('./quiz_data.json');
 
@@ -13,6 +14,7 @@ class Quiz extends Component {
         return (
             <div>
                 <div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div>
+                {/* Inside of this div with a className of QuizQuestion, we are accessing the first element in the quiz_questions property of the quizData object, and displaying the instruction_text value. */}
             </div>
         )
         
