@@ -12,7 +12,7 @@ class Quiz extends Component {
     }
 
     render(){
-        const isQuizEnd = true
+        const isQuizEnd = false
         return (
             <div>
                 {/* <div className="QuizQuestion">{quizData.quiz_questions[0].instruction_text}</div> 
